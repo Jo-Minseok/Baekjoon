@@ -44,7 +44,7 @@ public:
 		}
 	}
 
-	void printerInfo() {
+	void printerInfo() { // 프린터 정보 띄우는 함수
 		cout << model << " ," << manufacturer << " ,남은 종이 " << availableCount << "장 ,";
 	}
 
@@ -83,12 +83,12 @@ public:
 		}
 	}
 
-	void printComplete(int pages) {
+	void printComplete(int pages) { // 프린트 완료 했을때 시행하는 구문
 		availableInk -= pages;
 		printerComplete(pages);
 	}
 
-	void ShowInfo() {
+	void ShowInfo() { // 잉크 출력 함수
 		cout << "잉크젯 : ";
 		printerInfo();
 		cout << "남은 잉크 " << availableInk << endl;
@@ -125,12 +125,12 @@ public:
 		}
 	}
 
-	void printComplete(int pages) {
+	void printComplete(int pages) { // 프린트 완료 했을때 시행하는 구문
 		availableToner -= pages;
 		printerComplete(pages);
 	}
 
-	void ShowInfo() {
+	void ShowInfo() { // 토너 출력 함수
 		cout << "레이저 : ";
 		printerInfo();
 		cout << "남은 토너 " << availableToner << endl;
