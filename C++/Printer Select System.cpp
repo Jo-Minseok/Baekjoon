@@ -36,6 +36,9 @@ protected:
 			return false;
 		}
 	}
+	void setPrintedCount(int pages){
+		this->printedCount = pages;
+	}
 
 	void printerInfo() { // 프린터 정보 띄우는 함수
 		cout << model << " ," << manufacturer << " ,남은 종이 " << availableCount << "장 ,";
@@ -57,6 +60,7 @@ public:
 	void printInkJet(int pages) { // 문제 제시 함수
 		if (availableInk >= pages) {
 			if (print(pages) == true) {
+				setPrintedCount(pages);
 				cout << "프린트하였습니다." << endl;
 				printComplete(pages);
 			}
@@ -97,6 +101,7 @@ public:
 	void printLaser(int pages) { // 문제 제시 함수
 		if (availableToner >= pages) {
 			if (print(pages) == true) {
+				setPrintedCount(pages);
 				cout << "프린트하였습니다." << endl;
 				printComplete(pages);
 			}
