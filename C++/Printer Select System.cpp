@@ -29,12 +29,7 @@ protected:
 	}
 
 	bool print(int pages) { // 문제 제시 함수
-		if (availableCount >= pages) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return availableCount >= pages;
 	}
 	void setPrintedCount(int pages){
 		this->printedCount = pages;
