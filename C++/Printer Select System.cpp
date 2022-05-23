@@ -31,7 +31,7 @@ protected:
 	bool print(int pages) { // 문제 제시 함수
 		return availableCount >= pages;
 	}
-	void setPrintedCount(int pages){
+	void setPrintedCount(int pages) {
 		this->printedCount = pages;
 	}
 
@@ -136,7 +136,7 @@ int main() {
 	cout << endl;
 
 	int select, print_request;
-	char que;
+	char keep;
 
 	while (true) {
 		cout << "프린터(1:잉크젯, 2:레이저)와 매수 입력>>";
@@ -150,6 +150,7 @@ int main() {
 		}
 		else {
 			cout << "잘못된 숫자를 입력하셨습니다. (1:잉크젯, 2:레이저)와 매수 입력을 해주세요" << endl;
+			continue;
 		}
 
 		inkjet->ShowInfo();
@@ -157,15 +158,15 @@ int main() {
 		cout << "계속 프린트 하시겠습니까(y/n)>>";
 
 		while (true) {
-			cin >> que;
-			if (que == 'y' || que == 'Y' || que == 'n' || que == 'N') {
+			cin >> keep;
+			if (keep == 'y' || keep == 'Y' || keep == 'n' || keep == 'N') {
 				break;
 			}
 			else {
 				cout << "잘못된 입력을 하셨습니다. y/n 중에 입력하세요(대문자 가능)" << endl;
 			}
 		}
-		if (que == 'n' || que == 'N') {
+		if (keep == 'n' || keep == 'N') {
 			break;
 		}
 
