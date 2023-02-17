@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 int arr[1000001];
 int main()
