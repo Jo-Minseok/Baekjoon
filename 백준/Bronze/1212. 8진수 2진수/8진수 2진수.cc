@@ -24,7 +24,5 @@ int main() {
 			break;
 		}
 	}
-	for (int i = index; i < result.length(); i++) {
-		cout << result[i];
-	}
+	cout << result.substr(index, result.length());
 }
