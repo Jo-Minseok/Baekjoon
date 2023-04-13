@@ -10,18 +10,18 @@ int main() {
 	int num;
 	cin >> num_text;
 	if (num_text[0] == '0' && num_text.length()!=1) {
+		stringstream convert(num_text);
 		if (num_text[1] == 'x') {
-			stringstream convert(num_text);
-			convert >> std::hex >>  num;
-			cout << num;
+			convert >> hex >>  num;
+			
 		}
 		else {
-			stringstream convert(num_text);
-			convert >> std::oct >> num;
-			cout << num;
+			convert >> oct >> num;
 		}
 	}
 	else {
 		cout << num_text;
+		return 0;
 	}
+	cout << num;
 }
