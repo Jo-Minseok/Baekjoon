@@ -1,22 +1,23 @@
 #include <stdio.h>
 
-int main(void) {
-	int num1;
-	scanf("%d", &num1);
-	if (100 >= num1 && num1 >= 90) {
+int main(){
+	int score;
+	scanf("%d", &score);
+
+	if(score<=100&&score>=90){
 		printf("A");
 	}
-	else if (89 >= num1 && num1 >= 80) {
+	else if(score<=89&&score>=80){
 		printf("B");
 	}
-	else if (79 >= num1 && num1 >= 70) {
+	else if(score<=79&&score>=70){
 		printf("C");
 	}
-	else if (69 >= num1 && num1 >= 60) {
+	else if(score<=69&&score>=60){
 		printf("D");
 	}
-	else {
+	else{
 		printf("F");
-	}
+	}	
 	return 0;
 }
