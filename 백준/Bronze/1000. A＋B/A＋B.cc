@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(void) {
-	int num, num2;
-	scanf("%d %d", &num, &num2);
-	printf("%d", num + num2);
+int main(){
+	unsigned int A,B;
+
+	scanf("%d %d", &A, &B);
+	printf("%d", A+B);
 	return 0;
 }
-
