@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main() {
-	long long num1, num2, num3;
-	scanf("%lld %lld %lld", &num1, &num2, &num3);
-	printf("%lld", num1 + num2 + num3);
+int main(){
+	long long a, b, c;
+	scanf("%lld %lld %lld", &a, &b, &c);
+	printf("%lld", a + b + c);
 	return 0;
 }
