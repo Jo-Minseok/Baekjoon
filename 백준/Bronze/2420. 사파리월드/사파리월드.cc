@@ -1,9 +1,15 @@
 #include <stdio.h>
-#include <math.h>
 
-int main() {
-	long long num1, num2;
-	scanf("%lld %lld", &num1, &num2);
-	printf("%lld",abs(num1 - num2));
+int main(){
+
+	long long N, M, result;
+	scanf("%lld %lld", &N, &M);	
+	result=N-M;
+	if(result<0){
+		printf("%lld", -1*result);
+	}
+	else{
+		printf("%lld", result);
+	}
 	return 0;
 }

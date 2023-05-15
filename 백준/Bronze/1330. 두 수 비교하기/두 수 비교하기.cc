@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main(void) {
-	int num1, num2;
-	scanf("%d %d", &num1, &num2);
-	if (num1 > num2) {
+int main(){
+	int A, B;
+	scanf("%d %d", &A, &B);
+
+	if(A>B){
 		printf(">");
 	}
-	else if (num1 < num2) {
+	else if(A<B){
 		printf("<");
 	}
 	else{
