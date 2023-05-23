@@ -1,11 +1,13 @@
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
+int main(){
+    
+    int i, n;
 
-int main() {
-	int num;
-	cin >> num;
-	for(int j = 1; j <= 9; j++){
-		cout << num << " * " << j << " = " << num * j << endl;
-	}
+    scanf("%d", &n);
+
+    for(i=1;i<=9;i++){
+        printf("%d * %d = %d\n",n, i, n*i);
+    }
+    return 0;
 }
