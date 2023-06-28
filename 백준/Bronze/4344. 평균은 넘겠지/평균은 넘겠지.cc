@@ -1,26 +1,34 @@
 #include <iostream>
 using namespace std;
-int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-	cout.tie(nullptr);
-	int test_case,student_count,over_count=0;
-	cin >> test_case;
-	for (int i = 0; i < test_case; i++) {
-		over_count = 0;
-		cin >> student_count;
-		int* score = new int[student_count] {0};
-		int sum = 0;
-		for (int j = 0; j < student_count; j++) {
-			cin >> score[j];
-			sum += score[j];
-		}
-		for (int j = 0; j < student_count; j++) {
-			if (score[j] > sum / student_count) {
-				over_count++;
-			}
-		}
-		printf("%.3f%%\n", (double)over_count / student_count * 100);
-		delete score;
-	}
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    cout.precision(3);
+    cout << fixed;
+    int test_case, human_count;
+    cin >> test_case;
+    while (test_case--)
+    {
+        int arr[1001], over = 0;
+        cin >> human_count;
+        double avg = 0;
+        for (int i = 0; i < human_count; i++)
+        {
+            cin >> arr[i];
+            avg += arr[i];
+        }
+        avg = avg / human_count;
+        for (int i = 0; i < human_count; i++)
+        {
+            if (avg < arr[i])
+            {
+                over++;
+            }
+        }
+        cout << (1.0 * over / human_count) * 100 << "%\n";
+    }
 }
