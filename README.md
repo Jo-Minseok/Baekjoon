@@ -8,9 +8,9 @@
 
 ## 백준
 
-<figure align="center">
-<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765"><br>
-</figure>
+<div align="center">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765">
+</div>
 
 - <a href="https://www.acmicpc.net/user/seok3765">백준 프로필</a></td>
 
