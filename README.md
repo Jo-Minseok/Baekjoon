@@ -8,7 +8,7 @@
 
 ## 백준
 
-<div align="center">
+<div style="overflow-x:hidden;overflow-y:hidden" align="center">
 <table>
 <tr>
     <td colspan="2"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765"></td>
