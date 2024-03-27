@@ -8,16 +8,12 @@
 
 ## 백준
 
-<div style="overflow-x:hidden;overflow-y:hidden" align="center">
-<table>
-<tr>
-    <td colspan="2"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765"></td>
-<tr>
-<tr>
-<td><a href="https://www.acmicpc.net/user/seok3765">백준 프로필</a></td>
-<td><a href="https://solved.ac/profile/seok3765">solved.ac 프로필</a></td>
-<tr>
-</table>
-</div>
+<figure align="center">
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765"><br>
+</figure>
+
+- <a href="https://www.acmicpc.net/user/seok3765">백준 프로필</a></td>
+
+- <a href="https://solved.ac/profile/seok3765">solved.ac 프로필</a></td>
 
 ## 프로그래머스
