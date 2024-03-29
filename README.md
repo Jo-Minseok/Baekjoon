@@ -15,5 +15,3 @@
 - <a href="https://www.acmicpc.net/user/seok3765">백준 프로필</a></td>
 
 - <a href="https://solved.ac/profile/seok3765">solved.ac 프로필</a></td>
-
-## 프로그래머스
