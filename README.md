@@ -9,7 +9,7 @@
 ## 백준
 
 <div align="center">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765">
+    <a href="https://solved.ac/profile/seok3765"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seok3765"></a>
 </div>
 
 - <a href="https://www.acmicpc.net/user/seok3765">백준 프로필</a></td>
