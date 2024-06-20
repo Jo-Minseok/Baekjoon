@@ -1,7 +1,4 @@
 function solution(a, b) {
     let answer = 0;
-    for(let i =0; i<a.length ;i++){
-        answer += a[i] * b[i];
-    }
-    return answer;
+    return a.reduce((acc, curVal, curIdx, a) => {return acc + (a[curIdx] * b[curIdx])},0);
 }
