@@ -5,6 +5,6 @@ function solution(food) {
         foodCount += Math.floor(food[i]/2);
         answer += String(i).repeat(Math.floor(food[i]/2));
     }
-    answer += '0' + [...answer.slice(0,foodCount)].reverse().join("");
+    answer += '0' + [...answer].reverse().join("");
     return answer;
 }
